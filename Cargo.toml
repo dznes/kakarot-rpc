@@ -120,7 +120,7 @@ ef-testing = { git = "https://github.com/kkrt-labs/ef-tests", rev = "45b8528", d
   "v0",
 ], optional = true }
 foundry-config = { git = "https://github.com/foundry-rs/foundry", branch = "master", optional = true }
-rand = { version = "0.8", default-features = false, optional = true }
+rand = { version = "0.9", default-features = false, optional = true }
 rayon = { version = "1", default-features = false, optional = true }
 rstest = { version = "0.21", default-features = false, optional = true }
 serde_with = { version = "2.3.1", default-features = false, optional = true }
